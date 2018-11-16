@@ -1,7 +1,7 @@
 package com.spring.controller;
 
 import java.io.IOException;
-import java.sql.SQLException;
+import java.sql.SQLException;,
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -29,7 +29,7 @@ public class LoginController {
 		String userId = login.getUserId();
 		String userPassword = login.getPassword();
 		return null;
-		
+		////////////////
 		
 	}
 	
