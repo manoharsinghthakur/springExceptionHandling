@@ -21,7 +21,7 @@ public class LoginController {
 	@RequestMapping("/welcome")
 	public String hello(){
 		
-		return "welcome";
+		return "welcome"; ///////////////
 	}
 
 	public ModelAndView loginUser(@ModelAttribute("login") Login login){
